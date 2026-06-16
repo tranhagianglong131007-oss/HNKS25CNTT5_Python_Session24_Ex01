@@ -66,6 +66,5 @@ print(f"Tổng tiền Bàn 2 (chưa VAT): {order_table2.total_amount} VNĐ")
 CoffeeOrder.update_vat_rate(0.08)
 
 print(f"Tổng tiền Bàn 1 (sau VAT): {order_table1.calculate_final_bill()} VNĐ")
-print(f"Tổng tiền Bàn 2 (sau VAT): {order_table2.calculate_final_bill()} VNĐ")
 print(f"Thuế VAT đang áp dụng cho Bàn 1: {CoffeeOrder.vat_rate}")
 print(f"Thuế VAT đang áp dụng cho Bàn 2: {CoffeeOrder.vat_rate}")
